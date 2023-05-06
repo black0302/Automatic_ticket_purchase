@@ -20,11 +20,11 @@ class DaMaiTicket:
         # 登录信息
         self.login_cookies = {}
         self.session = session()
-        self.login_id: str = '15730987985'  # 大麦网登录账户名
-        self.login_password: str = 'hqy20010302'  # 大麦网登录密码
+        self.login_id: str = ''  # 大麦网登录账户名
+        self.login_password: str = ''  # 大麦网登录密码
         # 以下为抢票必须的参数
-        self.item_id: int = 675292612465  # 商品id
-        self.viewer: list = ['韩骐阳']  # 在大麦网已填写的观影人
+        self.item_id: int =   # 商品id
+        self.viewer: list = ['']  # 在大麦网已填写的观影人
         self.buy_nums: int = 1  # 购买影票数量, 需与观影人数量一致
         self.ticket_price: int = 380  # 购买指定票价
 
